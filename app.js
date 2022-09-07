@@ -8,9 +8,10 @@
 // update DOM to reflect the new state
 
 const nameInput = document.getElementById('name-input');
-console.log(nameInput);
+// console.log(nameInput);
 
 const button = document.getElementById('button');
 button.addEventListener('click', () => {
-    console.log('clicked');
+    // console.log('clicked');
+    console.log(nameInput.value);
 });
