@@ -22,14 +22,25 @@ header {
 
 main {
     padding: 20px;
+    background-color: brown;
 }
 
 footer {
     position: sticky;
     bottom: 0;
     padding: 7px 20px;
-    font-size: .8em;
+    font-size: 0.8em;
     display: flex;
     justify-content: flex-end;
     background-color: var(--footer-background);
+}
+
+h1 {
+    background-color: rgb(24, 64, 3);
+    color: azure;
+}
+
+h2 {
+    background-color: blue;
+    color: antiquewhite;
 }
