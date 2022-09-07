@@ -9,3 +9,8 @@
 
 const nameInput = document.getElementById('name-input');
 console.log(nameInput);
+
+const button = document.getElementById('button');
+button.addEventListener('click', () => {
+    console.log('clicked');
+});
